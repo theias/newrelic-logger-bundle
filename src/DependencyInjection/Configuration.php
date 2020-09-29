@@ -10,7 +10,7 @@ class Configuration implements ConfigurationInterface
 {
     public function getConfigTreeBuilder(): TreeBuilder
     {
-        $treeBuilder = new TreeBuilder('ias_new_relic_logger"');
+        $treeBuilder = new TreeBuilder('ias_new_relic_logger');
 
         $treeBuilder->getRootNode()
             ->children()

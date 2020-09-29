@@ -1,5 +1,7 @@
 # ias/newrelic-logger-bundle
 
+[![Build Status](https://travis-ci.org/theias/newrelic-logger-bundle.svg?branch=master)](https://travis-ci.org/theias/newrelic-logger-bundle)
+
 This bundle logs to New Relic in Symfony apps.
 
 Requirements
