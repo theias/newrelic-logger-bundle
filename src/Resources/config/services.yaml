@@ -1,0 +1,15 @@
+services:
+    NewRelic\Monolog\Enricher\Processor:
+        tags:
+            - { name: monolog.processor }
+
+    NewRelic\Monolog\Enricher\Handler: ~
+
+    ias_new_relic_logger.handler:
+        class: Monolog\Handler\BufferHandler
+        arguments:
+            - '@NewRelic\Monolog\Enricher\Handler'
+            - 0
+            - 200
+            - true
+            - false
