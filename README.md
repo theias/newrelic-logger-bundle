@@ -2,6 +2,11 @@
 
 This bundle logs to New Relic in Symfony apps.
 
+Requirements
+============
+
+- Requirements from [newrelic/monolog-enricher](https://github.com/newrelic/newrelic-monolog-logenricher-php)
+
 Installation
 ============
 
