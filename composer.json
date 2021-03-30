@@ -5,7 +5,7 @@
     "type": "symfony-bundle",
     "require": {
         "php": ">=7.1",
-        "newrelic/monolog-enricher": "^1.0",
+        "newrelic/monolog-enricher": "^1.0 || ^2.0",
         "symfony/dependency-injection": "~4.4 || ^5.0",
         "symfony/monolog-bundle": "^3.0",
         "symfony/yaml": "~4.4 || ^5.0"
